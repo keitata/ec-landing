@@ -42,11 +42,11 @@ export default function MainHeader() {
 
           {/* デスクトップ アクションボタン */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link href="/auth/signin">
+            <a href="https://ec-9rv4.onrender.com" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="sm">
                 ログイン
               </Button>
-            </Link>
+            </a>
           </div>
 
           {/* モバイルメニューボタン */}
@@ -99,11 +99,11 @@ export default function MainHeader() {
               </a>
               <div className="pt-4 pb-3 border-t border-gray-200">
                 <div className="space-y-2">
-                  <Link href="/auth/signin" onClick={() => setIsMenuOpen(false)}>
+                  <a href="https://ec-9rv4.onrender.com" target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
                     <Button variant="ghost" className="w-full justify-center">
                       ログイン
                     </Button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
